@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+
 @SpringBootApplication
 @RestController
 public class StringsApplication {
@@ -14,7 +15,7 @@ public class StringsApplication {
 	}
 	
 	@RequestMapping("/")
-	public String hello() {
+	public String home() {
 		return "Hello Client! How are you doing today?";
 	}
 	
