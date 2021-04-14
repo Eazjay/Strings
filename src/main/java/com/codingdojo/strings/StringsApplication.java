@@ -15,7 +15,7 @@ public class StringsApplication {
 	}
 	
 	@RequestMapping("/")
-	public String home() {
+	public String index() {
 		return "Hello Client! How are you doing today?";
 	}
 	
